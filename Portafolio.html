@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Lucia | Portafolio</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header class="navbar">
+
+        <div class="logo">
+            <img src="img/Glossy Electric Blue Double-L Logo.webp" alt="Lucas">
+        </div>
+
+        <nav>
+            <a id="navInicio" href="#inicio" class="activo">Inicio</a>
+            <a id="navSobreMi" href="#sobre-mi">Sobre mí</a>
+            <a id="navProyectos" href="#proyectos">Proyectos</a>
+            <a id="navHabilidades" href="#habilidades">Habilidades</a>
+            <a id="navContacto" href="#contacto">Contacto</a>
+
+            <button id="idiomaBtnEs" class="idioma-btn" type="button">
+                <img src="img/ESP.png" alt="Español">
+            </button>
+
+            <button id="idiomaBtnEN" class="idioma-btn" type="button">
+                <img src="img/UK.png" alt="English">
+            </button>
+        </nav>
+
+        <a href="#contacto" class="btn-contacto">
+            <span id="btnHablemos">Hablemos</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </header>
+
+
+    <!-- INICIO -->
+    <section class="hero" id="inicio">
+
+        <div class="hero-contenido">
+
+            <span id="hola" class="subtitulo">HOLA, SOY</span>
+
+            <h1>
+                Lucas <span>Lucia</span>
+            </h1>
+
+            <h3>
+                <span id="rolEstudiante">ESTUDIANTE</span>
+                <span>•</span>
+                <span id="rolInteres">Interesado en la Programación</span>
+            </h3>
+
+            <p id="descripcion">
+                Soy una persona interesada en la tecnología,
+                la programación y la innovación. Me gusta aprender
+                cosas nuevas, desarrollar nuevas ideas y enfrentar
+                desafíos que contribuyan a mi crecimiento personal
+                y profesional.
+            </p>
+
+            <div class="hero-botones">
+
+                <a href="#proyectos" class="btn-principal">
+                    <span id="btnExplorar">Explorar proyectos</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#sobre-mi" class="btn-secundario">
+                    <span id="btnConoceme">Conóceme más</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+
+            </div>
+
+            <div class="redes">
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="Correo"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOBRE MÍ -->
+    <section class="sobre-mi" id="sobre-mi">
+
+        <div class="sobre-texto">
+
+            <span class="etiqueta" id="tituloSobreMi">SOBRE MÍ</span>
+
+           <h2>
+             <span id="sobreTituloNormal">Un poco sobre</span>
+                <span id="sobreTituloAzul">mí.</span>
+            </h2>
+
+            <p id="descripcionSobreMi">
+                Actualmente estoy explorando el mundo de la
+                informática y la programación. Me interesa
+                aprender nuevas tecnologías, desarrollar
+                proyectos y descubrir nuevas oportunidades
+                para mi futuro profesional.
+            </p>
+
+            <a href="#contacto" class="btn-secundario">
+                <span id="btnConocer">Conocer más</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="tarjetas" id="habilidades">
+
+            <article class="tarjeta">
+                <i class="fa-solid fa-code"></i>
+                <h3 id="tarjetaProgramacion">Programación</h3>
+                <p id="descProgramacion">Desarrollando ideas mediante código.</p>
+            </article>
+
+            <article class="tarjeta">
+                <i class="fa-solid fa-car"></i>
+                <h3 id="tarjetaAutomoviles">Automóviles</h3>
+                <p id="descAutomoviles">Interés por la tecnología automotriz.</p>
+            </article>
+
+            <article class="tarjeta">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3 id="tarjetaEducacion">Educación</h3>
+                <p id="descEducacion">Aprendiendo y mejorando constantemente.</p>
+            </article>
+
+            <article class="tarjeta">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3 id="tarjetaCiberseguridad">Ciberseguridad</h3>
+                <p id="descCiberseguridad">Explorando el mundo de la seguridad digital.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROYECTOS -->
+    <section class="proyectos" id="proyectos">
+
+        <span class="etiqueta" id="tituloTrabajo">MI TRABAJO</span>
+
+       <h2>
+             <span id="proyectosTituloNormal">Mis</span>
+            <span id="proyectosTituloAzul">proyectos.</span>
+        </h2>
+
+        <p class="descripcion" id="descripcionProyectos">
+            Algunos de los proyectos y trabajos que representan
+            mi aprendizaje y creatividad.
+        </p>
+
+        <div class="proyecto-card">
+
+            <div class="proyecto-icono">
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+
+            <div>
+                <h3>SmartDriver</h3>
+
+                <p id="descripcionSmartDriver">
+                    Plataforma digital enfocada en el mundo
+                    automotriz, que integra recursos y herramientas
+                    para los conductores.
+                </p>
+
+                <span class="tecnologias">HTML · CSS · JavaScript</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+
+        <span class="etiqueta" id="tituloContacto">CONTACTO</span>
+
+        <h2>
+             <span id="contactoTituloNormal">Construyamos algo</span>
+            <span id="contactoTituloAzul">increíble.</span>
+        </h2>>
+
+        <p id="descripcionContacto">
+            Siempre estoy abierto a aprender, compartir ideas
+            y conocer nuevas oportunidades.
+        </p>
+
+        <a href="mailto:tu-correo@ejemplo.com" class="btn-principal">
+            <span id="btnContactame">Contáctame</span>
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p id="footerTexto">
+            © 2026 Lucas Lucia. Todos los derechos reservados.
+        </p>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="idioma.js"></script>
+
+</body>
+</html>
